@@ -13,6 +13,7 @@ import java.util.Scanner;
 
 import classes.controller.Pedaggio;
 import classes.model.Casello;
+import classes.model.Percorso;
 import classes.model.Veicolo;
 
 public class PercorrenzaAutostradale implements interfaces.Ingresso, interfaces.Uscita {
@@ -23,13 +24,11 @@ public class PercorrenzaAutostradale implements interfaces.Ingresso, interfaces.
     	System.out.println("Ingresso telepass");
     	
     	test.Main.statement = database.DatabaseConnect.connection();
-    
     	
     	String query1 = "INSERT INTO automobile_con_telepass values('" + targa + "');";
         String query2 = "INSERT INTO ingresso_telepass values('" + targa + "', " + caselloIngresso.getId() + " );";
 
         test.Main.statement.execute(query1);
-
         test.Main.statement.execute(query2);
 
     }
@@ -79,8 +78,10 @@ public class PercorrenzaAutostradale implements interfaces.Ingresso, interfaces.
         Videocamera videocamera = new Videocamera();
 
         Veicolo veicolo = videocamera.riconosciVeicolo(targa);
+        
+        Percorso percorso = new Percorso(chilometroIngresso, caselloUscita, veicolo);
 
-        float prezzo = Pedaggio.pedaggio(chilometroIngresso, caselloUscita, veicolo);
+        float prezzo = Pedaggio.pedaggio(percorso);
 
         return Pagamento.paga(prezzo);
 
@@ -109,7 +110,9 @@ public class PercorrenzaAutostradale implements interfaces.Ingresso, interfaces.
         
         Veicolo veicolo = videocamera.riconosciVeicolo(targa);
 
-        float prezzo = Pedaggio.pedaggio(chilometroIngresso, caselloUscita, veicolo);
+        Percorso percorso = new Percorso(chilometroIngresso, caselloUscita, veicolo);
+        
+        float prezzo = Pedaggio.pedaggio(percorso);
 
         return Pagamento.paga(prezzo);
        

@@ -7,7 +7,7 @@ public class Percorso {
      *      attributi
      * 
      */
-    private Casello caselloIngresso;
+    private float chilometroIngresso;
     private Casello caselloUscita;
     private Veicolo veicolo;
 
@@ -21,8 +21,8 @@ public class Percorso {
      * @param uscita
      * @param veicolo
      */
-    public Percorso(Casello ingresso, Casello uscita, Veicolo veicolo){
-        this.caselloIngresso = ingresso;
+    public Percorso(float chilometroIngresso, Casello uscita, Veicolo veicolo){
+        this.chilometroIngresso = chilometroIngresso;
         this.caselloUscita = uscita;
         this.veicolo = veicolo;
     }
@@ -36,7 +36,7 @@ public class Percorso {
      * 
      * @return il casello di ingresso del percorso effettuato 
      */
-    public Casello getCaselloIngresso() { return this.caselloIngresso; }
+    public float getChilometroIngresso() { return this.chilometroIngresso; }
 
     
     /**

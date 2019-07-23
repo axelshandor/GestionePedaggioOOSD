@@ -1,6 +1,7 @@
 package classes.controller;
 
 import classes.model.Casello;
+import classes.model.Percorso;
 import classes.model.Veicolo;
 import classes.model.Veicolo3;
 import classes.model.Veicolo4;
@@ -11,12 +12,12 @@ import classes.model.VeicoloB;
 public class Pedaggio {
     
 	
-    public static float pedaggio(float chilometroIngresso, Casello caselloUscita, Veicolo v){
+    public static float pedaggio(Percorso percorso){
     	
-    	float chilometri = chilometroIngresso - caselloUscita.getChilometro();
+    	float chilometri = percorso.getChilometroIngresso() - percorso.getCaselloUscita().getChilometro();
     	chilometri = Math.abs(chilometri);
     	
-    	float tariffa = classes.controller.Normativa.calcoloTariffa(v, caselloUscita.getAutostradaAppartenenza());
+    	float tariffa = classes.controller.Normativa.calcoloTariffa(percorso.getVeicolo(), percorso.getCaselloUscita().getAutostradaAppartenenza());
     	float result = chilometri * tariffa;
     	
     	result = result + ( result * classes.controller.Normativa.IVA );

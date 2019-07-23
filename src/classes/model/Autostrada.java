@@ -162,11 +162,9 @@ public class Autostrada {
      * @param caselli
      */
     public void addCaselli( List<Casello> caselli ) {
-
         for (Casello c : caselli){
             this.caselli.put(c.getId(), c);
         }
-
     }
     /**
      * 

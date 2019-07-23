@@ -13,7 +13,7 @@ import classes.model.VeicoloB;
 public class Normativa {
 
 	public static float IVA = 0.22f;
-	static HashMap<Integer, Float> tariffeTipoAutostrada = new HashMap<Integer, Float>();
+	static HashMap<Integer, Float> tariffeTipoAutostrada = new HashMap<Integer, Float>();  // 0 per pianura e 1 per montagna
 	
     /**
      * 
