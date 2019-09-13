@@ -5,7 +5,7 @@ CREATE TABLE `autostrada` (
     nome varchar(50),
     citta_uno varchar(30) NOT NULL,
     citta_due varchar(30) NOT NULL,
-    tipo int NOT NULL CONSTRAINT CHECK(tipo < 3 && tipo >= 0),       /* 0 = pianura, 1 = montagna */
+    tipo int NOT NULL CONSTRAINT CHECK(tipo < 2 && tipo >= 0),       /* 0 = pianura, 1 = montagna */
     primary key(id)
 );
 
@@ -24,7 +24,7 @@ CREATE TABLE `tariffa_autostradale` (
 
 CREATE TABLE `tariffa_tipo_autostrada` (
     tariffa float NOT NULL,
-    autostrada_tipo int CONSTRAINT CHECK(autostrada_tipo < 3 && autostrada_tipo >= 0),
+    autostrada_tipo int CONSTRAINT CHECK(autostrada_tipo < 2 && autostrada_tipo >= 0),
     foreign key(autostrada_tipo)references autostrada(tipo),
     primary key(autostrada_tipo)
 );
@@ -45,7 +45,8 @@ CREATE TABLE `automobile_con_telepass` (
 );
 
 CREATE TABLE `ingresso_telepass` (
-    automobile_telepass_targa varchar(10),
+    automobile_telepass_targa varchar(10) NOT NULL,
+    chilometro_ingresso float NOT NULL,
     casello_id int NOT NULL,
     foreign key(automobile_telepass_targa)references automobile_con_telepass(targa),
     foreign key(casello_id)references casello(id),

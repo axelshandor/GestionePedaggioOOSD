@@ -34,6 +34,3 @@ INSERT INTO automobile_con_telepass(targa) values("AA 001 AA");
 INSERT INTO automobile_con_telepass(targa) values("AA 002 AA");
 INSERT INTO automobile_con_telepass(targa) values("AA 003 AA");
 INSERT INTO automobile_con_telepass(targa) values("AA 004 AA");
-
-INSERT INTO ingresso_telepass(automobile_telepass_targa, casello_id) values("AA 000 AA", 1);
-INSERT INTO ingresso_telepass(automobile_telepass_targa, casello_id) values("AA 001 AA", 6);

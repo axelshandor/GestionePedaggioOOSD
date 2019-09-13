@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="450.0" maxWidth="700.0" minHeight="450.0" minWidth="700.0" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mvc.controller.viewer.HomeController">
+   <children>
+      <AnchorPane fx:id="pannelloBase" layoutX="109.0" maxHeight="450.0" maxWidth="550.0" minHeight="450.0" minWidth="550.0" prefHeight="450.0" prefWidth="657.0" style="-fx-background-color: #F1F1E5; -fx-background-radius: 0;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane maxHeight="450.0" maxWidth="661.0" minHeight="450.0" minWidth="550.0" prefHeight="450.0" prefWidth="655.0" style="-fx-background-color: #32373D; -fx-background-radius: 10;" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="50.0" />
+            <AnchorPane maxHeight="450.0" maxWidth="550.0" minHeight="450.0" minWidth="550.0" prefHeight="450.0" prefWidth="550.0" style="-fx-background-color: #32373D; -fx-background-radius: 10;" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="50.0" />
+            <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="450.0" maxWidth="550.0" minHeight="450.0" minWidth="550.0" prefHeight="450.0" prefWidth="550.0" style="-fx-background-color: #F1F1E5; -fx-background-radius: 0;" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="50.0">
+               <children>
+                  <Button fx:id="btnAA000AA" layoutX="25.0" layoutY="17.0" maxHeight="50.0" maxWidth="100.0" minHeight="50.0" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#clickBtnAA000AA" prefHeight="50.0" prefWidth="100.0" style="-fx-background-radius: 1; -fx-background-color: #292838;" text="AA 000 AA" textFill="#f1f1e5" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="5.0">
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" color="#171717" height="20.0" offsetX="2.0" offsetY="2.0" radius="9.5" width="20.0" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="btnAA001AA" layoutX="25.0" layoutY="65.0" maxHeight="50.0" maxWidth="100.0" minHeight="50.0" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#clickBtnAA001AA" prefHeight="50.0" prefWidth="100.0" style="-fx-background-radius: 1; -fx-background-color: #292838;" text="AA 001 AA" textFill="#f1f1e5" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="75.0">
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" color="#171717" height="20.0" offsetX="2.0" offsetY="2.0" radius="9.5" width="20.0" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="btnAA002AA" layoutX="26.0" layoutY="116.0" maxHeight="50.0" maxWidth="100.0" minHeight="50.0" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#clickBtnAA002AA" prefHeight="50.0" prefWidth="100.0" style="-fx-background-radius: 1; -fx-background-color: #292838;" text="AA 002 AA" textFill="#f1f1e5" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="145.0">
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" color="#171717" height="20.0" offsetX="2.0" offsetY="2.0" radius="9.5" width="20.0" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="btnAA003AA" layoutX="149.0" layoutY="5.0" maxHeight="50.0" maxWidth="100.0" minHeight="50.0" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#clickBtnAA003AA" prefHeight="50.0" prefWidth="100.0" style="-fx-background-radius: 1; -fx-background-color: #292838;" text="AA 003 AA" textFill="#f1f1e5" AnchorPane.leftAnchor="155.0" AnchorPane.topAnchor="5.0">
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" color="#171717" height="20.0" offsetX="2.0" offsetY="2.0" radius="9.5" width="20.0" />
+                     </effect>
+                     <font>
+                        <Font name="AppleGothic Regular" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnAA004AA" layoutX="151.0" layoutY="55.0" maxHeight="50.0" maxWidth="100.0" minHeight="50.0" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#clickBtnAA004AA" prefHeight="50.0" prefWidth="100.0" style="-fx-background-radius: 1; -fx-background-color: #292838;" text="AA 004 AA" textFill="#f1f1e5" AnchorPane.leftAnchor="155.0" AnchorPane.topAnchor="75.0">
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" color="#171717" height="20.0" offsetX="2.0" offsetY="2.0" radius="9.5" width="20.0" />
+                     </effect>
+                  </Button>
+                  <Label fx:id="labelVeicolo" alignment="CENTER" layoutX="25.0" layoutY="240.0" prefHeight="130.0" prefWidth="227.0" style="-fx-background-color: #e6e6db;" textAlignment="CENTER" textFill="#292838" wrapText="true" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0">
+                     <effect>
+                        <DropShadow color="#00000028" height="15.0" offsetX="3.0" offsetY="3.0" radius="8.25" width="20.0" />
+                     </effect>
+                  </Label>
+                  <Button fx:id="btnAA005AA" layoutX="150.0" layoutY="106.0" maxHeight="50.0" maxWidth="100.0" minHeight="50.0" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#clickBtnAA005AA" prefHeight="50.0" prefWidth="100.0" style="-fx-background-radius: 1; -fx-background-color: #292838;" text="AA 005 AA" textFill="#f1f1e5" AnchorPane.leftAnchor="155.0" AnchorPane.topAnchor="145.0">
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" color="#171717" height="20.0" offsetX="2.0" offsetY="2.0" radius="9.5" width="20.0" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="btnStart" disable="true" layoutX="325.0" layoutY="223.0" maxHeight="50.0" maxWidth="281.0" minHeight="50.0" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#clickStart" prefHeight="50.0" prefWidth="281.0" style="-fx-background-radius: 1; -fx-background-color: #EC6665;" text="START" AnchorPane.rightAnchor="44.0" AnchorPane.topAnchor="223.0">
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" color="#171717" height="20.0" offsetX="2.0" offsetY="2.0" radius="9.5" width="20.0" />
+                     </effect>
+                  </Button>
+                  <SplitMenuButton fx:id="sceltaTipoIngresso" accessibleRole="MENU_BUTTON" alignment="CENTER" disable="true" layoutX="325.0" layoutY="160.0" maxHeight="30.0" maxWidth="281.0" minHeight="30.0" minWidth="160.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="281.0" text="tipo ingresso" AnchorPane.rightAnchor="44.0" AnchorPane.topAnchor="160.0">
+                    <items>
+                      <MenuItem fx:id="sceltaTelepass" mnemonicParsing="false" onAction="#clickTelepass" text="Telepass" />
+                      <MenuItem fx:id="sceltaBiglietto" mnemonicParsing="false" onAction="#clickBiglietto" text="Biglietto" />
+                    </items>
+                     <effect>
+                        <DropShadow color="#000000a6" height="10.0" offsetX="2.0" offsetY="2.0" radius="4.5" width="10.0" />
+                     </effect>
+                  </SplitMenuButton>
+                  <SplitMenuButton fx:id="sceltaAutostrada" alignment="CENTER" disable="true" layoutX="325.0" layoutY="10.0" maxHeight="30.0" maxWidth="281.0" minHeight="30.0" minWidth="160.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="281.0" text="scelta autostrada" AnchorPane.rightAnchor="44.0" AnchorPane.topAnchor="10.0">
+                     <items>
+                        <MenuItem fx:id="autostrada1" mnemonicParsing="false" onAction="#clickAutostrada1" style="-fx-background-radius: 20;" text="Autostrada Del Sole" />
+                        <MenuItem fx:id="autostrada2" mnemonicParsing="false" onAction="#clickAutostrada2" style="-fx-background-radius: 20;" text="Autostrada A3" />
+                        <MenuItem fx:id="autostrada3" mnemonicParsing="false" onAction="#clickAutostrada3" style="-fx-background-radius: 20;" text="La Verdemare" />
+                        <MenuItem fx:id="autostrada4" mnemonicParsing="false" onAction="#clickAutostrada4" style="-fx-background-radius: 20;" text="Autostrada Azzurra" />
+                        <MenuItem fx:id="autostrada5" mnemonicParsing="false" onAction="#clickAutostrada5" style="-fx-background-radius: 20;" text="Autostrada Brebemi" />
+                     </items>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <effect>
+                        <DropShadow color="#000000a6" height="10.0" offsetX="2.0" offsetY="2.0" radius="4.5" width="10.0" />
+                     </effect>
+                  </SplitMenuButton>
+                  <SplitMenuButton fx:id="sceltaCaselloIngresso" alignment="CENTER" disable="true" layoutX="325.0" layoutY="60.0" maxHeight="30.0" maxWidth="281.0" minHeight="30.0" minWidth="160.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="281.0" text="scelta casello ingresso" AnchorPane.rightAnchor="44.0" AnchorPane.topAnchor="60.0">
+                    <items>
+                        <MenuItem fx:id="casello1" mnemonicParsing="false" onAction="#clickCasello1" text=" Fiorenzuola" visible="false" />
+                        <MenuItem fx:id="casello2" mnemonicParsing="false" onAction="#clickCasello2" text="Lodi" visible="false" />
+                        <MenuItem fx:id="casello3" mnemonicParsing="false" onAction="#clickCasello3" text="Sasso Marconi" visible="false" />
+                      <MenuItem fx:id="casello4" mnemonicParsing="false" onAction="#clickCasello4" text="Ercolano" visible="false" />
+                      <MenuItem fx:id="casello5" mnemonicParsing="false" onAction="#clickCasello5" text="Portici" visible="false" />
+                        <MenuItem fx:id="casello6" mnemonicParsing="false" onAction="#clickCasello6" text="Angri" visible="false" />
+                        <MenuItem fx:id="casello7" mnemonicParsing="false" onAction="#clickCasello7" text="Ceva" visible="false" />
+                        <MenuItem fx:id="casello8" mnemonicParsing="false" onAction="#clickCasello8" text="Carmagnola" visible="false" />
+                        <MenuItem fx:id="casello9" mnemonicParsing="false" onAction="#clickCasello9" text="Millesimo" visible="false" />
+                        <MenuItem fx:id="casello10" mnemonicParsing="false" onAction="#clickCasello10" text="Lavagna" visible="false" />
+                        <MenuItem fx:id="casello11" mnemonicParsing="false" onAction="#clickCasello11" text="Cecina Nord" visible="false" />
+                        <MenuItem fx:id="casello12" mnemonicParsing="false" onAction="#clickCasello12" text="Recco" visible="false" />
+                        <MenuItem fx:id="casello13" mnemonicParsing="false" onAction="#clickCasello13" text="Castrezzato" visible="false" />
+                        <MenuItem fx:id="casello14" mnemonicParsing="false" onAction="#clickCasello14" text="Bariano" visible="false" />
+                        <MenuItem fx:id="casello15" mnemonicParsing="false" onAction="#clickCasello15" text="Milano" visible="false" />
+                    </items>
+                     <effect>
+                        <DropShadow color="#000000a6" height="10.0" offsetX="2.0" offsetY="2.0" radius="4.5" width="10.0" />
+                     </effect>
+                  </SplitMenuButton>
+                  <SplitMenuButton fx:id="sceltaCaselloUscita" alignment="CENTER" disable="true" layoutX="325.0" layoutY="110.0" maxHeight="30.0" maxWidth="281.0" minHeight="30.0" minWidth="160.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="281.0" text="scelta casello  uscita" AnchorPane.rightAnchor="44.0" AnchorPane.topAnchor="110.0">
+                     <items>
+                        <MenuItem fx:id="casello1u" mnemonicParsing="false" onAction="#clickCasello1u" text=" Fiorenzuola" visible="false" />
+                        <MenuItem fx:id="casello2u" mnemonicParsing="false" onAction="#clickCasello2u" text="Lodi" visible="false" />
+                        <MenuItem fx:id="casello3u" mnemonicParsing="false" onAction="#clickCasello3u" text="Sasso Marconi" visible="false" />
+                        <MenuItem fx:id="casello4u" mnemonicParsing="false" onAction="#clickCasello4u" text="Ercolano" visible="false" />
+                        <MenuItem fx:id="casello5u" mnemonicParsing="false" onAction="#clickCasello5u" text="Portici" visible="false" />
+                        <MenuItem fx:id="casello6u" mnemonicParsing="false" onAction="#clickCasello6u" text="Angri" visible="false" />
+                        <MenuItem fx:id="casello7u" mnemonicParsing="false" onAction="#clickCasello7u" text="Ceva" visible="false" />
+                        <MenuItem fx:id="casello8u" mnemonicParsing="false" onAction="#clickCasello8u" text="Carmagnola" visible="false" />
+                        <MenuItem fx:id="casello9u" mnemonicParsing="false" onAction="#clickCasello9u" text="Millesimo" visible="false" />
+                        <MenuItem fx:id="casello10u" mnemonicParsing="false" onAction="#clickCasello10u" text="Lavagna" visible="false" />
+                        <MenuItem fx:id="casello11u" mnemonicParsing="false" onAction="#clickCasello11u" text="Cecina Nord" visible="false" />
+                        <MenuItem fx:id="casello12u" mnemonicParsing="false" onAction="#clickCasello12u" text="Recco" visible="false" />
+                        <MenuItem fx:id="casello13u" mnemonicParsing="false" onAction="#clickCasello13u" text="Castrezzato" visible="false" />
+                        <MenuItem fx:id="casello14u" mnemonicParsing="false" onAction="#clickCasello14u" text="Bariano" visible="false" />
+                        <MenuItem fx:id="casello15u" mnemonicParsing="false" onAction="#clickCasello15u" text="Milano" visible="false" />
+                     </items>
+                     <effect>
+                        <DropShadow color="#000000a6" height="10.0" offsetX="2.0" offsetY="2.0" radius="4.5" width="10.0" />
+                     </effect>
+                  </SplitMenuButton>
+                  <Button fx:id="btnModificaCasello" layoutX="325.0" layoutY="301.0" maxHeight="50.0" maxWidth="127.0" minHeight="50.0" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#clickBtnModificaCasello" prefHeight="50.0" prefWidth="127.0" style="-fx-background-radius: 1; -fx-background-color: #292838;" text="Modifica Casello" textFill="#f1f1e5">
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" color="#171717" height="20.0" offsetX="2.0" offsetY="2.0" radius="9.5" width="20.0" />
+                     </effect>
+                  </Button>
+                  <Button fx:id="btnAggiungiCasello" alignment="CENTER" contentDisplay="CENTER" layoutX="479.0" layoutY="301.0" maxHeight="118.0" maxWidth="127.0" minHeight="50.0" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#clickBtnAggiungiCasello" prefHeight="50.0" prefWidth="127.0" style="-fx-background-radius: 1; -fx-background-color: #292838;" text="Aggiungi/Rimuovi &#10;Casello" textAlignment="CENTER" textFill="#f1f1e5">
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" color="#171717" height="20.0" offsetX="2.0" offsetY="2.0" radius="9.5" width="20.0" />
+                     </effect>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <Button fx:id="btnClose" layoutX="664.0" layoutY="17.0" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" onMouseClicked="#closeApplication" prefHeight="25.0" prefWidth="25.0" style="-fx-background-radius: 100; -fx-background-color: #B44F68;" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
+               <effect>
+                  <DropShadow blurType="TWO_PASS_BOX" height="20.0" offsetX="2.0" offsetY="2.0" radius="9.5" width="20.0" />
+               </effect></Button>
+         </children></AnchorPane>
+      <AnchorPane fx:id="pannelloPedaggio" maxHeight="200.0" maxWidth="300.0" minHeight="200.0" minWidth="300.0" prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: #B44F68;" visible="false" AnchorPane.bottomAnchor="125.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="125.0">
+         <children>
+            <Label fx:id="labelPedaggio" alignment="CENTER" maxHeight="50.0" maxWidth="100.0" minHeight="50.0" minWidth="100.0" prefHeight="50.0" prefWidth="100.0" textFill="#f1f1e5" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="90.0">
+               <font>
+                  <Font name="AppleGothic Regular" size="25.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" text="Importo da pagare :" textFill="#f1f1e5" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="60.0">
+               <font>
+                  <Font name="AppleGothic Regular" size="20.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow color="#171717ad" height="25.0" offsetX="10.0" offsetY="10.0" radius="12.0" width="25.0" />
+         </effect>
+      </AnchorPane>
+      <AnchorPane fx:id="pannelloModificaCasello" layoutX="10.0" layoutY="10.0" maxHeight="200.0" maxWidth="300.0" minHeight="200.0" minWidth="300.0" prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: #B44F68;" visible="false" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="100.0">
+         <effect>
+            <DropShadow color="#171717ad" height="25.0" offsetX="10.0" offsetY="10.0" radius="12.0" width="25.0" />
+         </effect>
+         <children>
+            <SplitMenuButton fx:id="sceltaCaselloModifica" alignment="CENTER" layoutX="28.0" layoutY="27.0" maxHeight="30.0" maxWidth="281.0" minHeight="30.0" minWidth="155.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="161.0" text="casello da modificare">
+               <items>
+                  <MenuItem fx:id="casello1Modifica" mnemonicParsing="false" onAction="#clickCasello1Modifica" text=" Fiorenzuola" />
+                  <MenuItem fx:id="casello2Modifica" mnemonicParsing="false" onAction="#clickCasello2Modifica" text="Lodi" />
+                  <MenuItem fx:id="casello3Modifica" mnemonicParsing="false" onAction="#clickCasello3Modifica" text="Sasso Marconi" visible="false" />
+                  <MenuItem fx:id="casello4Modifica" mnemonicParsing="false" onAction="#clickCasello4Modifica" text="Ercolano" />
+                  <MenuItem fx:id="casello5Modifica" mnemonicParsing="false" onAction="#clickCasello5Modifica" text="Portici" />
+                  <MenuItem fx:id="casello6Modifica" mnemonicParsing="false" onAction="#clickCasello6Modifica" text="Angri" visible="false" />
+                  <MenuItem fx:id="casello7Modifica" mnemonicParsing="false" onAction="#clickCasello7Modifica" text="Ceva" />
+                  <MenuItem fx:id="casello8Modifica" mnemonicParsing="false" onAction="#clickCasello8Modifica" text="Carmagnola" />
+                  <MenuItem fx:id="casello9Modifica" mnemonicParsing="false" onAction="#clickCasello9Modifica" text="Millesimo" />
+                  <MenuItem fx:id="casello10Modifica" mnemonicParsing="false" onAction="#clickCasello10Modifica" text="Lavagna" />
+                  <MenuItem fx:id="casello11Modifica" mnemonicParsing="false" onAction="#clickCasello11Modifica" text="Cecina Nord" />
+                  <MenuItem fx:id="casello12Modifica" mnemonicParsing="false" onAction="#clickCasello12Modifica" text="Recco" />
+                  <MenuItem fx:id="casello13Modifica" mnemonicParsing="false" onAction="#clickCasello13Modifica" text="Castrezzato" />
+                  <MenuItem fx:id="casello14Modifica" mnemonicParsing="false" onAction="#clickCasello14Modifica" text="Bariano" />
+                  <MenuItem fx:id="casello15Modifica" mnemonicParsing="false" onAction="#clickCasello15Modifica" text="Milano" />
+               </items>
+               <effect>
+                  <DropShadow color="#000000a6" height="10.0" offsetX="2.0" offsetY="2.0" radius="4.5" width="10.0" />
+               </effect>
+            </SplitMenuButton>
+            <TextField fx:id="labelNomeCaselloModifica" alignment="CENTER" layoutX="215.0" layoutY="70.0" promptText="nome casello" />
+            <TextField fx:id="labelChilometroCaselloModifica" alignment="CENTER" layoutX="215.0" layoutY="29.0" promptText="chilometro" />
+            <Button fx:id="btnModifica" layoutX="65.0" layoutY="167.0" maxHeight="50.0" maxWidth="281.0" minHeight="50.0" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#clickModifica" prefHeight="50.0" prefWidth="281.0" style="-fx-background-radius: 1; -fx-background-color: #EC6665;" text="MODIFICA">
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" color="#171717" height="20.0" offsetX="2.0" offsetY="2.0" radius="9.5" width="20.0" />
+               </effect>
+            </Button>
+            <TextField fx:id="labelAutostradaIdCaselloModifica" alignment="CENTER" layoutX="29.0" layoutY="70.0" promptText="id autostrada" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pannelloAggiungiCasello" layoutX="20.0" layoutY="20.0" maxHeight="200.0" maxWidth="300.0" minHeight="200.0" minWidth="300.0" prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: #B44F68;" visible="false" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="100.0">
+         <effect>
+            <DropShadow color="#171717ad" height="25.0" offsetX="10.0" offsetY="10.0" radius="12.0" width="25.0" />
+         </effect>
+         <children>
+            <SplitMenuButton fx:id="sceltaCaselloEliminazione" alignment="CENTER" layoutX="28.0" layoutY="31.0" maxHeight="30.0" maxWidth="281.0" minHeight="30.0" minWidth="155.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="159.0" text="casello da eliminare">
+               <items>
+                  <MenuItem fx:id="casello1Elimina" mnemonicParsing="false" onAction="#clickCasello1Elimina" text=" Fiorenzuola" />
+                  <MenuItem fx:id="casello2Elimina" mnemonicParsing="false" onAction="#clickCasello2Elimina" text="Lodi" />
+                  <MenuItem fx:id="casello3Elimina" mnemonicParsing="false" onAction="#clickCasello3Elimina" text="Sasso Marconi" visible="false" />
+                  <MenuItem fx:id="casello4Elimina" mnemonicParsing="false" onAction="#clickCasello4Elimina" text="Ercolano" />
+                  <MenuItem fx:id="casello5Elimina" mnemonicParsing="false" onAction="#clickCasello5Modifica" text="Portici" />
+                  <MenuItem fx:id="casello6Elimina" mnemonicParsing="false" onAction="#clickCasello6Elimina" text="Angri" visible="false" />
+                  <MenuItem fx:id="casello7Elimina" mnemonicParsing="false" onAction="#clickCasello7Elimina" text="Ceva" />
+                  <MenuItem fx:id="casello8Elimina" mnemonicParsing="false" onAction="#clickCasello8Elimina" text="Carmagnola" />
+                  <MenuItem fx:id="casello9Elimina" mnemonicParsing="false" onAction="#clickCasello9Elimina" text="Millesimo" />
+                  <MenuItem fx:id="casello10Elimina" mnemonicParsing="false" onAction="#clickCasello10Elimina" text="Lavagna" />
+                  <MenuItem fx:id="casello11Elimina" mnemonicParsing="false" onAction="#clickCasello11Elimina" text="Cecina Nord" />
+                  <MenuItem fx:id="casello12Elimina" mnemonicParsing="false" onAction="#clickCasello12Elimina" text="Recco" />
+                  <MenuItem fx:id="casello13Elimina" mnemonicParsing="false" onAction="#clickCasello13Elimina" text="Castrezzato" />
+                  <MenuItem fx:id="casello14Elimina" mnemonicParsing="false" onAction="#clickCasello14Modifica" text="Bariano" />
+                  <MenuItem fx:id="casello15Elimina" mnemonicParsing="false" onAction="#clickCasello15Elimina" text="Milano" />
+               </items>
+               <effect>
+                  <DropShadow color="#000000a6" height="10.0" offsetX="2.0" offsetY="2.0" radius="4.5" width="10.0" />
+               </effect>
+            </SplitMenuButton>
+            <TextField fx:id="labelNomeCaselloAggiunta" alignment="CENTER" layoutX="28.0" layoutY="190.0" promptText="nome casello" />
+            <TextField fx:id="labelChilometroCaselloAggiunta" alignment="CENTER" layoutX="28.0" layoutY="149.0" promptText="chilometro" />
+            <Button fx:id="btnElimina" layoutX="240.0" layoutY="28.0" maxHeight="50.0" maxWidth="281.0" minHeight="35.0" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#clickBtnElimina" prefHeight="35.0" prefWidth="126.0" style="-fx-background-radius: 1; -fx-background-color: #EC6665;" text="elimina">
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" color="#171717" height="20.0" offsetX="2.0" offsetY="2.0" radius="9.5" width="20.0" />
+               </effect>
+            </Button>
+            <Button fx:id="btnAggiungi" layoutX="242.0" layoutY="142.0" maxHeight="50.0" maxWidth="281.0" minHeight="35.0" minWidth="100.0" mnemonicParsing="false" onMouseClicked="#clickAggiungi" prefHeight="35.0" prefWidth="126.0" style="-fx-background-radius: 1; -fx-background-color: #EC6665;" text="aggiungi">
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" color="#171717" height="20.0" offsetX="2.0" offsetY="2.0" radius="9.5" width="20.0" />
+               </effect>
+            </Button>
+            <Line endX="135.05230712890625" layoutX="217.0" layoutY="87.0" startX="-162.76858520507812" stroke="#d3bfbf" AnchorPane.bottomAnchor="162.5" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="85.0" />
+            <SplitMenuButton fx:id="sceltaAutostradaAggiuntaCasello" alignment="CENTER" layoutX="29.0" layoutY="103.0" maxHeight="30.0" maxWidth="281.0" minHeight="30.0" minWidth="125.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="158.0" text="scelta autostrada">
+               <items>
+                  <MenuItem fx:id="autostradaAggiuntaCasello1" mnemonicParsing="false" onAction="#clickAutostradaAggiunta1" style="-fx-background-radius: 20;" text="Autostrada Del Sole" />
+                  <MenuItem fx:id="autostradaAggiuntaCasello2" mnemonicParsing="false" onAction="#clickAutostradaAggiunta2" style="-fx-background-radius: 20;" text="Autostrada A3" />
+                  <MenuItem fx:id="autostradaAggiuntaCasello3" mnemonicParsing="false" onAction="#clickAutostradaAggiunta3" style="-fx-background-radius: 20;" text="La Verdemare" />
+                  <MenuItem fx:id="autostradaAggiuntaCasello4" mnemonicParsing="false" onAction="#clickAutostradaAggiunta4" style="-fx-background-radius: 20;" text="Autostrada Azzurra" />
+                  <MenuItem fx:id="autostradaAggiuntaCasello5" mnemonicParsing="false" onAction="#clickAutostradaAggiunta5" style="-fx-background-radius: 20;" text="Autostrada Brebemi" />
+               </items>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <DropShadow color="#000000a6" height="10.0" offsetX="2.0" offsetY="2.0" radius="4.5" width="10.0" />
+               </effect>
+            </SplitMenuButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

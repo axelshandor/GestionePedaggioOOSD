@@ -1,13 +1,13 @@
 package interfaces;
 
 import java.io.IOException;
-import java.sql.SQLException;
 
-import classes.model.Casello;
+import mvc.model.Casello;
+import dao.exceptions.DatabaseException;
 
 public interface Ingresso {
     
-    public void ingressoTelepass(Casello caselloINgresso, String targa) throws SQLException;
+    public void ingressoTelepass(Casello caselloINgresso, String targa) throws DatabaseException;
     public void ingressoBiglietto(Casello caselloIngresso) throws IOException;
 
 }

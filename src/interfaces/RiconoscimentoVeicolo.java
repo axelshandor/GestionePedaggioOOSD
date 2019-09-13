@@ -3,7 +3,7 @@ package interfaces;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-import classes.model.Veicolo;
+import mvc.model.Veicolo;
 
 public interface RiconoscimentoVeicolo {
 
